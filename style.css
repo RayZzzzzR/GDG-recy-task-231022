@@ -157,12 +157,16 @@ article{
     width:140.6px;
 }
 .message {
-    font-size: 1.7rem;
+    font-size: 2.7rem;
     color: rgb(69, 185, 244);
     text-align: center;
     display: none;
+    font-weight: 600;
 }
-
+.msg-container{
+    margin: auto;
+    text-align: center;
+}
 .countdown {
     text-align: center;
     margin-top: 2.25rem;
@@ -239,7 +243,6 @@ article{
     filter: blur(0px);
 }
 .box span{
-    display: inline-block;
     font-size: 3rem;
     font-weight: 550;
     transition: 1.5s;
