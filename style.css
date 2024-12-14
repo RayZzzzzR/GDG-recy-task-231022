@@ -218,6 +218,8 @@ article{
 }
 .box{
     cursor: pointer;
+    width: fit-content;
+    margin: auto;
 }
 .box::after{
     content: 'Happy New Year !';
