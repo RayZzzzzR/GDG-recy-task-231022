@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Poppins, sans-serif;
+    background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23999999' fill-opacity='0.23'%3E%3Cpath d='M0 38.59l2.83-2.83 1.41 1.41L1.41 40H0v-1.41zM0 1.4l2.83 2.83 1.41-1.41L1.41 0H0v1.41zM38.59 40l-2.83-2.83 1.41-1.41L40 38.59V40h-1.41zM40 1.41l-2.83 2.83-1.41-1.41L38.59 0H40v1.41zM20 18.6l2.83-2.83 1.41 1.41L21.41 20l2.83 2.83-1.41 1.41L20 21.41l-2.83 2.83-1.41-1.41L18.59 20l-2.83-2.83 1.41-1.41L20 18.59z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    height: 100%; /* Covers the full viewport height */
+    margin: 0; /* Removes default margin */
+    width: 100%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    height: 10vh; 
+    background: linear-gradient(to top, #0c0c2b, #101039);
+    
+}
+.name{
+    font-size: 1.25rem;
+    background-color: #17174b;
+    color: white;
+    cursor: default;
+    margin: 10px 18px 10px 4vw;
+    padding: 6px 18px;
+    border: 1px #0f0f2a solid;
+    border-radius: 2rem;
+}
+.name:hover{
+    background-color: white;
+    border: 1px black solid;
+    transition: all 300ms ease;
+    color: black;
+}
+.logo{
+    border-radius: 50%;
+    margin-top: 7px;
+}
+.logo img{
+    height: 6.5vh;
+}
+#profile{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
+.sec{
+    display: flex;
+    padding-top:2vh ;
+    margin: 0.25rem 3.5rem;
+    min-height: fit-content;
+}
+.container1{
+    width:50vw;
+}
+.container2{
+    width: 50vw;
+    color: black;
+    padding:10px;
+    margin: 0 25px;
+}
+.container21{
+    display: flex;
+    justify-content: center;
+    gap:2.5rem;
+}
+.container22{
+    margin-top: 1rem;
+}
+.pic-container{
+    display:flex;
+    height: 235px;
+    width: 235px;
+}
+.pic-container img{
+    border-radius: 100%;
+    height: 235px;
+    width: 235px;
+}
+.sectext{
+    align-self: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.sectext p{
+    font-weight: 600;
+}
+.sectext_p1{
+    text-align: center;
+    font-size: 18px;
+}
+.sectext_p2{
+    font-size: 1.55rem;
+    margin-bottom: 1rem;
+}
+.title{
+    font-size: 3rem;
+    font-weight: 550;
+    text-align: center;
+}
+
+#socials-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1.35rem;
+}
+.icon{
+    cursor: pointer;
+    height: 2rem;
+}
+.title2{
+    font-size: 1.45rem;
+    font-weight: 550;
+    text-align: center;
+    position: relative;
+}
+.skills1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.skills2{
+    display: flex;
+    gap: 2rem;
+    margin-top: 0.25rem;
+
+}
+.skills3{
+    padding: 0.22rem 0;
+    flex: 1;
+    background: rgba(255, 255, 255, 0.604);
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+}
+.subtitle{
+    color: black;
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+.article-container {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    row-gap: 2rem;
+    column-gap: 3rem;
+    justify-content: center;
+    cursor: default;
+}
+article{
+    width:140.6px;
+}
+.message {
+    font-size: 1.7rem;
+    color: rgb(69, 185, 244);
+    text-align: center;
+    display: none;
+}
+
+.countdown {
+    text-align: center;
+    margin-top: 2.25rem;
+    margin-bottom: 1rem;
+}
+
+.countdown h1 {
+    font-size: 2.25rem;
+    font-family: Source Code Pro;
+    color: black;
+}
+
+.countdown h2 {
+    font-size: 2.75rem;
+    font-weight: 570;
+    color: black;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+}
+.unit span {
+    font-size: 2rem;
+    padding: 1.5rem 1rem;
+    background-color: rgba(255, 255, 255, 0.604);
+    box-shadow: 0px 3px 12px -4px rgba(0,0,0,0.75);
+    margin-right: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.separator {
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+.unit .text {
+    font-family: Source Code Pro, sans serif;
+    font-size: 1.55rem;
+    margin-top: 2rem;
+}
+
+.visible {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+.year{
+    display: none;
+}
+.box{
+    cursor: pointer;
+}
+.box::after{
+    content: 'Happy New Year !';
+    color: rgb(69, 185, 244);
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-right: 1rem;
+    transition: 1s;
+    transform: rotate(0deg);
+    opacity: 0;
+    filter: blur(14px);
+}
+.box:hover::after{
+    transform: rotate(0deg);
+    opacity: 1;
+    filter: blur(0px);
+}
+.box span{
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: 550;
+    transition: 1.5s;
+}
+.box span:last-child, .box span:nth-child(4){
+    color:rgb(221, 48, 39);
+}
+.box:hover span:last-child{
+    transform: rotate(5deg) translateX(0px);
+    opacity: 0;
+    filter: blur(14px);
+}
+.box:hover span:nth-child(4){
+    transform: rotate(5deg) translateX(0px);
+    opacity: 0;
+    filter: blur(14px);
+}
+.box span:nth-child(3):after{
+    content: '5';
+    position: absolute;
+    opacity: 0;
+    filter: blur(14px);
+    color: rgb(69, 185, 244);
+    transition: 1.5s;
+}
+.box:hover span:nth-child(3):after{
+    transform: rotate(0deg) translateX(4px);
+    opacity: 1;
+    filter: blur(0px);
+}
+.bye{
+    font-size: 2.25rem;
+}
+.number2{
+    color: rgb(69, 185, 244);
+    display: none;
+}
+.celebration{
+    text-align: center;
+}
+.celebration h2{
+    font-size: 1.35rem;
+    font-weight: 550;
+    font-family: Poppins,sans serif;
+}
+.confetti-button{
+    background: #2fdbb6;
+    border-radius: 0.5rem;
+    color: white;
+    padding: 0.25rem 1rem;
+    border: none;
+    font-size: 2.5rem;
+    font-family: Source Code Pro;
+}
+.confetti-button:hover{
+    background-color: #5dd46b;
+    transition: all 0.3s ease-in-out;
+}
+#tsparticles{
+    margin: 2rem;
+}
+#confetti{
+    height: 1rem;
+}
+
+@media(max-width:1250px){
+    nav{
+        width: 100vw;
+    }
+    .sec{
+        display: block;
+        width: 100%;
+        margin: 0.25rem 1rem;
+    }
+    .container1{
+        width: 100vw;
+    }
+    .container2{
+        width: 100vw;
+        margin:  0 0 20px 0;
+    }
+}
+@media(max-width:545px){
+    .unit span{
+        font-size: 1.5rem;
+        padding: 0.4rem 0.2rem;
+    }
+    .unit .text{
+        font-size: 1rem;
+    }
+    .container21{
+        display: block;
+    }
+    .pic-container{
+        margin: auto;
+    }
+}
+.navdiv{
+    width: auto;
+    display: block;
+}
